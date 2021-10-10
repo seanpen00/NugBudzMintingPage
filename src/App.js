@@ -112,7 +112,7 @@ function App() {
           borderStyle: "solid", borderColor: "white", borderWidth: 0,
           borderRadius: 50, textAlign: "center", justifySelf: "center", justifyContent: "center"  }}
         >
-          <a href="https://boocrew.io" style={{textDecoration: "none", color:"white"}}>NugBudz Minter</a>
+          <a href="https://stonedgrowersclub.com/" style={{textDecoration: "none", color:"white"}}>NugBudz Minter</a>
         </s.TextTitle>
         <s.SpacerMedium />
         <ResponsiveWrapper flex={1} style={{ padding: 24, paddingTop: 0 }}>
@@ -125,7 +125,7 @@ function App() {
               borderStyle: "solid", 
               borderColor: "white",
               color: "white"}}>
-                0.035 ETH + Gas
+                0.05 ETH + Gas
               </s.TextTitle>
             <StyledImg alt={"NugBudz GIF"} src={i1} style={{paddingTop: 0, borderStyle: "solid", borderColor: "black", borderWidth: 5,
                     borderRadius: 0 }}/>
