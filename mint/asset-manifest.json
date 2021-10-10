@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/NugBudzMintingPage/mint/static/css/main.3097a5dc.chunk.css",
-    "main.js": "/NugBudzMintingPage/mint/static/js/main.098c6262.chunk.js",
-    "main.js.map": "/NugBudzMintingPage/mint/static/js/main.098c6262.chunk.js.map",
+    "main.js": "/NugBudzMintingPage/mint/static/js/main.2014dcbd.chunk.js",
+    "main.js.map": "/NugBudzMintingPage/mint/static/js/main.2014dcbd.chunk.js.map",
     "runtime-main.js": "/NugBudzMintingPage/mint/static/js/runtime-main.95e67854.js",
     "runtime-main.js.map": "/NugBudzMintingPage/mint/static/js/runtime-main.95e67854.js.map",
     "static/js/2.d71ac577.chunk.js": "/NugBudzMintingPage/mint/static/js/2.d71ac577.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.95e67854.js",
     "static/js/2.d71ac577.chunk.js",
     "static/css/main.3097a5dc.chunk.css",
-    "static/js/main.098c6262.chunk.js"
+    "static/js/main.2014dcbd.chunk.js"
   ]
 }
