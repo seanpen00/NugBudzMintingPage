@@ -63,7 +63,7 @@ function App() {
     if (_amount <= 0) {
       return;
     }
-    setFeedback("Minting your Official BooCrew NFT...");
+    setFeedback("Minting your Official NugBudz NFT...");
     setClaimingNft(true);
     blockchain.smartContract.methods
       .mint(blockchain.account, _amount)
@@ -76,9 +76,9 @@ function App() {
       // ********
       .send({
         gasLimit: 285000 * _amount,
-        to: "0x8815e06FC5b57Bd4d5590977a697582f19d2330e", // the address of your contract
+        to: "0xB643fcc56a757BA431b8B1eA5d7d0994483F81ef", // the address of your contract
         from: blockchain.account,
-        value: blockchain.web3.utils.toWei((0.035 * _amount).toString(), "ether"),
+        value: blockchain.web3.utils.toWei((0.05 * _amount).toString(), "ether"),
       })
       .once("error", (err) => {
         console.log(err);
@@ -87,7 +87,7 @@ function App() {
       })
       .then((receipt) => {
         setFeedback(
-          "Your BooCrew NFT has been successfully minted!"
+          "Your NugBudz NFT has been successfully minted!"
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
@@ -108,13 +108,11 @@ function App() {
     <s.Screen style={{ backgroundColor: "var(--black)", fontSize: 40 }}>
       <s.Container flex={1} ai={"center"} style={{ padding: 24, backgroundColor: "#0F4A1C"}}>
         <s.TextTitle
-          style={{ display: "flex", flexDirection: "row", textAlign: "left", fontSize: 12, fontWeight: "bold", paddingRight: 10, margin: 0, 
+          style={{ display: "flex", flexDirection: "row", textAlign: "left", fontSize: 100, fontWeight: "bold", paddingRight: 10, margin: 0, 
           borderStyle: "solid", borderColor: "white", borderWidth: 0,
           borderRadius: 50, textAlign: "center", justifySelf: "center", justifyContent: "center"  }}
         >
-          <a href="https://boocrew.io"><StyledImg alt={"BooCrew Logo"} 
-          src={newbanner} 
-          style={{width: 70, height: 70, textAlign: "center"}}></StyledImg></a>
+          <a href="https://boocrew.io" style={{textDecoration: "none", color:"white"}}>NugBudz Minter</a>
         </s.TextTitle>
         <s.SpacerMedium />
         <ResponsiveWrapper flex={1} style={{ padding: 24, paddingTop: 0 }}>
@@ -129,7 +127,7 @@ function App() {
               color: "white"}}>
                 0.035 ETH + Gas
               </s.TextTitle>
-            <StyledImg alt={"BooCrew Hidden"} src={i1} style={{paddingTop: 0, borderStyle: "solid", borderColor: "black", borderWidth: 5,
+            <StyledImg alt={"NugBudz GIF"} src={i1} style={{paddingTop: 0, borderStyle: "solid", borderColor: "black", borderWidth: 5,
                     borderRadius: 0 }}/>
             <s.TextTitle
               style={{ textAlign: "center", fontSize: 80, fontWeight: "bold", borderStyle: "solid", borderColor: "black", 
@@ -142,7 +140,7 @@ function App() {
               color: "white"
               }}
             >
-              {blockchain.account == null ? "????" : (data.totalSupply)}/5555
+              {blockchain.account == null ? "????" : (data.totalSupply)}/9420
             </s.TextTitle>
             {/* <s.SpacerMedium/> */}
             <s.Container
@@ -159,7 +157,7 @@ function App() {
               borderRadius: 30,
               fontSize: 40 }}
           >
-            {Number(data.totalSupply) == 5555 ? (
+            {Number(data.totalSupply) == 9420 ? (
               <>
                 <s.TextTitle style={{ textAlign: "center" }}>
                   The sale has ended.
@@ -227,7 +225,7 @@ function App() {
                     placeholder="#" 
                     type="number" 
                     min="1" 
-                    max="100"
+                    max="5"
                     style={{
                       fontSize: 60,
                       textAlign: "center",
@@ -269,7 +267,7 @@ function App() {
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
           <s.TextDescription style={{ textAlign: "center", fontSize: 40}}>
                       <a 
-                      href="https://rinkeby.etherscan.io/address/0x8815e06FC5b57Bd4d5590977a697582f19d2330e"
+                      href="https://rinkeby.etherscan.io/address/0xB643fcc56a757BA431b8B1eA5d7d0994483F81ef"
                       style={{
                         textDecoration: "none",
                         color: "black",
