@@ -2,7 +2,7 @@
   "name": "frontend_base_dapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://seanpen00.github.io/NugBudzMintingPage/mint",
+  "homepage": "https://stonedgrowersclub.github.io/minter-/mint",
   "dependencies": {
     "@openzeppelin/contracts": "^4.2.0",
     "@testing-library/jest-dom": "^5.11.4",

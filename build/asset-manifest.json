@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/NugBudzMintingPage/mint/static/css/main.3097a5dc.chunk.css",
-    "main.js": "/NugBudzMintingPage/mint/static/js/main.2014dcbd.chunk.js",
-    "main.js.map": "/NugBudzMintingPage/mint/static/js/main.2014dcbd.chunk.js.map",
-    "runtime-main.js": "/NugBudzMintingPage/mint/static/js/runtime-main.95e67854.js",
-    "runtime-main.js.map": "/NugBudzMintingPage/mint/static/js/runtime-main.95e67854.js.map",
-    "static/js/2.d71ac577.chunk.js": "/NugBudzMintingPage/mint/static/js/2.d71ac577.chunk.js",
-    "static/js/2.d71ac577.chunk.js.map": "/NugBudzMintingPage/mint/static/js/2.d71ac577.chunk.js.map",
-    "static/js/3.543a4054.chunk.js": "/NugBudzMintingPage/mint/static/js/3.543a4054.chunk.js",
-    "static/js/3.543a4054.chunk.js.map": "/NugBudzMintingPage/mint/static/js/3.543a4054.chunk.js.map",
-    "index.html": "/NugBudzMintingPage/mint/index.html",
-    "static/css/main.3097a5dc.chunk.css.map": "/NugBudzMintingPage/mint/static/css/main.3097a5dc.chunk.css.map",
-    "static/js/2.d71ac577.chunk.js.LICENSE.txt": "/NugBudzMintingPage/mint/static/js/2.d71ac577.chunk.js.LICENSE.txt",
-    "static/media/reset.css": "/NugBudzMintingPage/mint/static/media/NanumPenScript-Regular.9dbef110.ttf",
-    "static/media/NugGif.2ff9ccf6.gif": "/NugBudzMintingPage/mint/static/media/NugGif.2ff9ccf6.gif",
-    "static/media/logo.dabf7636.png": "/NugBudzMintingPage/mint/static/media/logo.dabf7636.png"
+    "main.css": "/minter-/mint/static/css/main.c6ec5cff.chunk.css",
+    "main.js": "/minter-/mint/static/js/main.2014dcbd.chunk.js",
+    "main.js.map": "/minter-/mint/static/js/main.2014dcbd.chunk.js.map",
+    "runtime-main.js": "/minter-/mint/static/js/runtime-main.c622f226.js",
+    "runtime-main.js.map": "/minter-/mint/static/js/runtime-main.c622f226.js.map",
+    "static/js/2.6e46b294.chunk.js": "/minter-/mint/static/js/2.6e46b294.chunk.js",
+    "static/js/2.6e46b294.chunk.js.map": "/minter-/mint/static/js/2.6e46b294.chunk.js.map",
+    "static/js/3.543a4054.chunk.js": "/minter-/mint/static/js/3.543a4054.chunk.js",
+    "static/js/3.543a4054.chunk.js.map": "/minter-/mint/static/js/3.543a4054.chunk.js.map",
+    "index.html": "/minter-/mint/index.html",
+    "static/css/main.c6ec5cff.chunk.css.map": "/minter-/mint/static/css/main.c6ec5cff.chunk.css.map",
+    "static/js/2.6e46b294.chunk.js.LICENSE.txt": "/minter-/mint/static/js/2.6e46b294.chunk.js.LICENSE.txt",
+    "static/media/reset.css": "/minter-/mint/static/media/NanumPenScript-Regular.9dbef110.ttf",
+    "static/media/NugGif.2ff9ccf6.gif": "/minter-/mint/static/media/NugGif.2ff9ccf6.gif",
+    "static/media/logo.dabf7636.png": "/minter-/mint/static/media/logo.dabf7636.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.95e67854.js",
-    "static/js/2.d71ac577.chunk.js",
-    "static/css/main.3097a5dc.chunk.css",
+    "static/js/runtime-main.c622f226.js",
+    "static/js/2.6e46b294.chunk.js",
+    "static/css/main.c6ec5cff.chunk.css",
     "static/js/main.2014dcbd.chunk.js"
   ]
 }
