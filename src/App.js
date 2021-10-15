@@ -76,7 +76,7 @@ function App() {
       // ********
       .send({
         gasLimit: 285000 * _amount,
-        to: "0xB643fcc56a757BA431b8B1eA5d7d0994483F81ef", // the address of your contract
+        to: "0x87caA99C6a008988035544d5ebEaf347fAa54765", // the address of your contract
         from: blockchain.account,
         value: blockchain.web3.utils.toWei((0.05 * _amount).toString(), "ether"),
       })
@@ -167,7 +167,7 @@ function App() {
                   Dont worry, you're not missing out! You can still get NugBudz NFTs on{" "}
                   <a
                     // target={"_blank"}
-                    href={"https://testnets.opensea.io/collection/rinkeby-doodlenauts"}
+                    href={"https://opensea.io/"}
                   >
                     Opensea.io
                   </a>
@@ -267,7 +267,7 @@ function App() {
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
           <s.TextDescription style={{ textAlign: "center", fontSize: 40}}>
                       <a 
-                      href="https://rinkeby.etherscan.io/address/0xB643fcc56a757BA431b8B1eA5d7d0994483F81ef"
+                      href="https://etherscan.io/address/0x87caA99C6a008988035544d5ebEaf347fAa54765"
                       style={{
                         textDecoration: "none",
                         color: "black",
